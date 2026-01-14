@@ -18,7 +18,7 @@ jobs:
     - name: Run Tests and Coverage
       run: |
         # Wir testen den spezifischen Ordner
-        pytest --cov=Pruefungsleistung_3
+        pytest --cov=.
     - name: Check Metrics
       run: |
         radon cc Pruefungsleistung_3 -s -a
