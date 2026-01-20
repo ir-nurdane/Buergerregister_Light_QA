@@ -9,6 +9,11 @@ Das System verwaltet Bürgerdaten und stellt sicher, dass diese valide und konsi
 **Code-Metriken** zur Analyse der Wartbarkeit mit `radon`.
 **Continuous Integration** via GitHub Actions.
 
+## Aktueller Projektstatus
+* **Unit-Tests:** 9/9 bestanden.
+* **Coverage:** Erfolgreich dokumentiert.
+* **CI-Pipeline:** Aktiv und stabil.
+
 ## 🛠 Installation
 Um das Projekt lokal zu nutzen, klone das Repository und installiere die notwendigen Abhängigkeiten:
 
@@ -21,4 +26,6 @@ cd Buergerregister_Light_QA
 
 # Abhängigkeiten installieren
 pip install pytest pytest-cov radon
+
+
 
